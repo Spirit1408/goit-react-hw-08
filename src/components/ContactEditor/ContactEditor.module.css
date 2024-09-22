@@ -1,0 +1,41 @@
+.form {
+	border: 1px solid #000000;
+	width: 250px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+.inputContainer {
+	display: flex;
+	flex-direction: column;
+}
+
+.inputContainer:nth-child(1) {
+	margin-bottom: 10px;
+}
+
+.input {
+	padding: 5px;
+}
+
+.button {
+	display: block;
+	background-color: #ffffff;
+	padding: 5px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	margin: 15px auto 0;
+	transition: 250ms ease;
+	&:hover {
+		background-color: #000000;
+		color: #ffffff;
+	}
+}
+
+.error {
+	color: rgb(255, 0, 0);
+	text-wrap: wrap;
+}

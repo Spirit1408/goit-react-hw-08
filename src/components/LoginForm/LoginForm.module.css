@@ -1,0 +1,35 @@
+.form {
+	width: 320px;
+	border: 1px solid #000000;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+}
+
+.error {
+	margin-top: 5px;
+	color: rgb(214, 0, 0);
+}
+
+.label input {
+	padding: 5px;
+}
+
+.form button {
+	display: block;
+	background-color: #ffffff;
+	padding: 5px;
+	border: 1px solid #000000;
+	border-radius: 10px;
+	margin: 0 auto;
+	transition: 250ms ease;
+	&:hover {
+		background-color: #000000;
+		color: #ffffff;
+	}
+}
